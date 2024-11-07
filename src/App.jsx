@@ -131,6 +131,8 @@ const AttachmentModal = ({ closeModal, setAttachmentCount }) => {
     }
   };
 
+  // try
+
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
       <div className="bg-white rounded-lg shadow-lg w-1/3 p-4">
