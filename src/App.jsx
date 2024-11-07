@@ -131,13 +131,13 @@ const AttachmentModal = ({ closeModal, setAttachmentCount }) => {
     }
   };
 
-  // try this
-  
+ 
+
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
       <div className="bg-white rounded-lg shadow-lg w-1/3 p-4">
-        <h3 className="text-lg font-semibold mb-4">Upload Attachments</h3>
+        <h3 className="text-lg font-semibold mb-4">Upload the Attachments</h3>
         <input type="file" multiple onChange={handleFileChange} className="mb-4" />
 
         <ul className="space-y-2 mb-4">
