@@ -109,7 +109,7 @@ const AttachmentModal = ({ closeModal, setAttachmentCount }) => {
 
     try {
 
-      const response = await fetch('http://localhost:5000/file', {
+      const response = await fetch('https://task-server-mu-teal.vercel.app/file', {
         method: 'POST',
         body: formData,
       });
